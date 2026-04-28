@@ -220,3 +220,5 @@ __marimo__/
 # Project specific data
 data/
 *.csv
+.ipynb_checkpoints/
+__pycache__/
