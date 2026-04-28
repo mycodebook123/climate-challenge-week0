@@ -47,3 +47,17 @@ Matplotlib & Seaborn: Statistical data visualization.
 Streamlit: Interactive dashboard development.
 
 Scipy: Statistical Z-score calculations for outlier detection.
+
+## 📊 Interactive Climate Dashboard
+To support Ethiopia's data-driven position for **COP32**, I developed an interactive dashboard that allows policymakers to visualize climate anomalies in real-time.
+
+![Dashboard Preview](dashboard_screenshots/dashboard_view.png)
+
+### **Key Features:**
+* **Multi-Country Comparison:** Toggle between Ethiopia, Kenya, Sudan, Tanzania, and Nigeria to identify regional climate leaders and laggards.
+* **Temporal Zoom:** A year-range slider (2015–2026) to isolate specific extreme weather events like the 2024 floods.
+* **Variable Selection:** Dynamic switching between Temperature (T2M), Precipitation (PRECTOTCORR), and Humidity (RH2M) to see overlapping vulnerabilities.
+
+### **How to Run Locally:**
+1. Ensure the cleaned datasets are in the `/data` folder (not tracked in this repo).
+2. Run the command: `streamlit run app/main.py`
